@@ -2,33 +2,22 @@ html {
     scroll-behavior: smooth;
   }
 
-#hinnoittelu {
-    scroll-margin-block-start: 25vh; 
-  }
-
-#ominaisuudet {
-    scroll-margin-block-start: 25vh; 
-  }
-
-  #meista {
-    scroll-margin-block-start: 25vh; 
-  }
-
 .main-page{
     height: 100vh;
 }
 
 .main-page-2{
-    height: 80vh;
+    height: 95vh;
 }
 
 .second-page {
-    height: 60vh;
+    height: 100vh;
 }
 
 .thrid-page {
-    height: 55vh;
+    height: 100vh;
 }
+
 
 .card-cover {
     background-repeat: no-repeat;
@@ -52,7 +41,7 @@ html {
     text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     .main-page{
         height: auto;
     }
@@ -68,4 +57,109 @@ html {
     .thrid-page {
         height: auto;
     }
+    #hinnoittelu {
+        scroll-margin-block-start: 10vh; 
+      }
+    
+    #ominaisuudet {
+        scroll-margin-block-start: 10vh; 
+      }
+    
+    #meista {
+        scroll-margin-block-start: 5vh; 
+      }
+    #otayhteytta {
+        scroll-margin-block-start: 10vh;
+      }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .main-page{
+        height: auto;
+    }
+    
+    .main-page-2{
+        height: auto;
+    }
+    
+    .second-page {
+        height: auto;
+    }
+    
+    .thrid-page {
+        height: auto;
+    }
+    #hinnoittelu {
+        scroll-margin-block-start: 25vh; 
+      }
+    
+    #ominaisuudet {
+        scroll-margin-block-start: 15vh; 
+      }
+    
+    #meista {
+        scroll-margin-block-start: 3vh; 
+      }
+    #otayhteytta {
+        scroll-margin-block-start: 0vh;
+      }
+    .fourth-page {
+        margin-bottom: 28vh;
+     }
+}
+
+@media (min-width: 993px) and (max-width: 1280px) {
+    #hinnoittelu {
+        scroll-margin-block-start: 13vh; 
+      }
+    
+    #ominaisuudet {
+        scroll-margin-block-start: 15vh; 
+      }
+    
+    #meista {
+        scroll-margin-block-start: 10vh; 
+      }
+    #otayhteytta {
+        scroll-margin-block-start: 10vh;
+      }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+    #hinnoittelu {
+        scroll-margin-block-start: 25vh; 
+      }
+    
+    #ominaisuudet {
+        scroll-margin-block-start: 25vh; 
+      }
+    
+    #meista {
+        scroll-margin-block-start: 25vh; 
+      }
+    #otayhteytta {
+        scroll-margin-block-start: 10vh;
+      }
+}
+
+@media only screen and (min-width: 1921px) {
+    #hinnoittelu {
+        scroll-margin-block-start: 25vh; 
+      }
+    
+    #ominaisuudet {
+        scroll-margin-block-start: 25vh; 
+      }
+    
+    #meista {
+        scroll-margin-block-start: 25vh; 
+      }
+    #otayhteytta {
+        scroll-margin-block-start: 0vh;
+      }
+    .fourth-page {
+        margin-bottom: 20vh;
+     }
 }
