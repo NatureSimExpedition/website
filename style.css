@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#hinnoittelu {
+    scroll-margin-block-start: 25vh; 
+  }
+
+#ominaisuudet {
+    scroll-margin-block-start: 25vh; 
+  }
+
+.main-page{
+    height: 90vh;
+}
+
+.main-page-2{
+    height: 80vh;
+}
+
+.second-page {
+    height: 60vh;
+}
+
+.thrid-page {
+    height: 55vh;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bi-calendar3 {
+    margin-right: 5px;
+}
+
+.osoite {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .main-page{
+        height: auto;
+    }
+    
+    .main-page-2{
+        height: auto;
+    }
+    
+    .second-page {
+        height: auto;
+    }
+    
+    .thrid-page {
+        height: auto;
+    }
+}
