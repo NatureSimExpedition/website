@@ -48,6 +48,10 @@ html {
     text-align:center;
 }
 
+.varjo {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+
 @media only screen and (max-width: 992px) {
     .main-page{
         height: auto;
