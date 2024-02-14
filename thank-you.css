@@ -1,0 +1,13 @@
+html {
+    height: 100vh;
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar{
+    text-align:center;
+}
+
